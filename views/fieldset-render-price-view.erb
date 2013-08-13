@@ -1,0 +1,9 @@
+<div id="price_template" class="content_data_block">
+  <% if element.price_value and element.price_value > 0%>
+    <div class="content_data_row">
+       <span data-icon="&#xe002;" aria-hidden="true">
+       	  <%="#{element.price_value} #{element.price_currency}"%>
+       </span>
+    </div>
+  <% end %>
+</div>

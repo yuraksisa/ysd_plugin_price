@@ -1,0 +1,7 @@
+price_form:
+  price_value:
+    label: Preu
+aspect:
+  price: 
+    title: Preu
+    description: Preu

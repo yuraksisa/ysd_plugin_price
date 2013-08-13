@@ -1,0 +1,18 @@
+<div id="price_form">
+  <div class="formrow">	
+    <label for="price_value"><%=t.price_form.price_value.label%></label>
+    <input type="text" maxlength="20" name="price_value" id="price_value"
+         class="fieldcontrol" 
+         <%% if (entity && entity.price_value) { %>
+           value="<%%=entity.price_value%>"
+         <%%}%>/>
+  </div>
+  <div class="formrow">
+  	<label for="price_currency"><%=t.price_form.price_currency.label%></label%>
+  	<input type="text" maxlength="3" name="price_currency" id="price_currency"
+  	     class="fieldcontrol"
+  	     <%% if (entity && entity.price_currency) { %>
+         value ="<%%entity.price_currency%>$"
+  	     <%% } %>
+  </div>
+</div>

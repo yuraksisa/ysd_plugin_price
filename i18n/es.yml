@@ -1,0 +1,7 @@
+price_form:
+  price_value:
+    label: Precio
+aspect:
+  price: 
+    label: Precio
+    description: Precio
